@@ -1,4 +1,4 @@
-public class Whileloop {
+public class BreakContinue {
     public static void main(String[] args) {
     //     for(int i=1;i<=10;i++){
     //         int reminder=i%2;
@@ -42,7 +42,6 @@ public class Whileloop {
         3  -->  3 OUT
         4  -->  0 OUT IN
         5  -->  1 OUT
-        6  -->  2 OUT
         7  -->  3 OUT
         8  -->  0 OUT  IN
         9  -->  1 OUT
