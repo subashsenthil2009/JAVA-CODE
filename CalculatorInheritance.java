@@ -4,6 +4,10 @@ public class CalculatorInheritance {
         int arr[]={10,15,5,20,50};
         int x=obj.add(arr);
         System.out.println(x);
+        ClassArray obj2=new ClassArray();
+        obj2.add(arr);
+        obj2.add(2, 10, 20);
+
     }
     
 }
@@ -14,10 +18,7 @@ class ClassTwo{
         return sum;
 }
 
-    public  float add(int x,int y,int z){
-        int sum=x+y+z;
-        return sum;
-}
+    
 }
 
 class ClassThree extends ClassTwo{
@@ -25,6 +26,10 @@ class ClassThree extends ClassTwo{
     public  int add(int x,int y){
     
         int sum=x+y;
+        return sum;
+}
+public  float add(int x,int y,int z){
+        int sum=x+y+z;
         return sum;
 }
 
