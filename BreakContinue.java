@@ -50,7 +50,7 @@ public class BreakContinue {
 
         for(int i=1;i<=7;i++){
             int even=i%2;
-            if(even==0c)    
+            if(even==0)
                 continue;
             if(i%5==0)
                 break;

@@ -19,13 +19,12 @@ abstract class sample {
 }
 
 abstract class dummy extends sample{
-
     @Override
     public void byeee(){
         System.out.println("Byeeeeeeeee...........");
     }
-
-    abstract public void text();
+    
+      abstract public void text();
 }
 
 class dummy2 extends dummy{
