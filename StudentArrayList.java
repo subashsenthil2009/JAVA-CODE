@@ -75,6 +75,7 @@ public class StudentArrayList {
         int j=sc.nextInt();
 
         list.set(i, j);
+        
         System.out.println(list);
     }
     
